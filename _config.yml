@@ -28,7 +28,7 @@ twitter_username: _akshay_b
 github_username:  the-spectator
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -39,6 +39,8 @@ remote_theme: jekyll/minima
 
 header_pages:
   - about.md
+
+future: true
 
 # Github and twitter are optional:
 minima:

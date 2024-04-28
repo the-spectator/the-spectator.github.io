@@ -5,7 +5,7 @@ date: 2024-04-28 16:15:06 +0530
 categories: ruby
 ---
 
-One of the things that sets Ruby apart from other programming languages is its impressive of built-in features.
+One of the things that sets Ruby apart from other programming languages is its impressive set of built-in features.
 One of my favourite method is [`Enumerable#detect`](https://ruby-doc.org/3.3.0/Enumerable.html#method-i-detect).
 It returns the first element for which the block yields a truthy value and stops searching upon the first hit.
 
@@ -15,7 +15,7 @@ arr = (1..10).to_a
 arr.detect { |n| Prime.prime?(n) } #=> 2
 ```
 
-Okay, let's spice it up! How do we find last matching element? A possible solution can be to filter the whole array using [`Enumerable#filter`](https://ruby-doc.org/3.3.0/Enumerable.html#method-i-select), and use the last match.
+Okay, let's spice it up! How do we find last matching element? A possible solution could be to filter the whole array using [`Enumerable#filter`](https://ruby-doc.org/3.3.0/Enumerable.html#method-i-select), and use the last match.
 
 ```ruby
 require "prime"

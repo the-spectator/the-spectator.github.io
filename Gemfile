@@ -18,6 +18,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-remote-theme", "~> 0.4.3"
   gem "jekyll-octicons", "~> 19.8"
+  gem "jekyll-analytics", git: "https://github.com/the-spectator/jekyll-analytics"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

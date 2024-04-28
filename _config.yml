@@ -33,6 +33,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
   - jekyll-octicons
+  - jekyll-analytics
 
 remote_theme: jekyll/minima
 
@@ -48,6 +49,11 @@ minima:
     - { platform: twitter, user_url: "https://twitter.com/_akshay_b" }
     - { platform: linkedin, user_url: "https://www.linkedin.com/in/akshayb1/" }
     - { platform: stackoverflow, user_url: "https://stackoverflow.com/users/5863438/the-spectator" }
+
+jekyll_analytics:
+  PostHog:
+    url: "https://us.i.posthog.com"
+    apikey: "phc_o3mJf8Ki4TlHDwOzbfHefkCm0H4TZJnwwPgOnqL61rc"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/the-spectator/jekyll-analytics
-  revision: 221ee67b4fb1e8b8dea4cbee015fdf4bcc008628
+  revision: 2d3ca83400fd063474bed3410adda0fc1bb10fed
   specs:
     jekyll-analytics (0.1.12)
 

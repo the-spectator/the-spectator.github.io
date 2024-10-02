@@ -26,6 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "the-spectator.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: _akshay_b
 github_username:  the-spectator
+google_verify: ua19gm87xEGhPywsh2vphbCvGPp8wmPUNvAxFpaUPpY
 
 # Build settings
 plugins:

@@ -53,6 +53,9 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    jgd (1.14.0)
+      jekyll (>= 1)
+      trollop (>= 2)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -81,6 +84,7 @@ GEM
       google-protobuf (~> 3.25)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
+    trollop (2.9.10)
     unicode-display_width (2.5.0)
     webrick (1.8.1)
 
@@ -94,6 +98,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-octicons (~> 19.8)
   jekyll-remote-theme (~> 0.4.3)
+  jgd
   minima (~> 2.5)
   tzinfo (>= 1, < 3)
   tzinfo-data

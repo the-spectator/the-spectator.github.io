@@ -51,6 +51,8 @@ GEM
       sass-embedded (~> 1.54)
     jekyll-seo-tag (2.8.0)
       jekyll (>= 3.8, < 5.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jgd (1.14.0)
@@ -98,6 +100,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-octicons (~> 19.8)
   jekyll-remote-theme (~> 0.4.3)
+  jekyll-sitemap
   jgd
   minima (~> 2.5)
   tzinfo (>= 1, < 3)

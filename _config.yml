@@ -23,7 +23,7 @@ email: mail@akshaybirajdar.com
 description: >- # this means to ignore newlines until "baseurl:"
   Byte size blogs to share my experiences.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "the-spectator.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bytes.akshaybirajdar.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: _akshay_b
 github_username:  the-spectator
 
@@ -34,6 +34,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-octicons
   - jekyll-analytics
+  - jekyll-sitemap
 
 remote_theme: jekyll/minima
 
